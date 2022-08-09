@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { MdPiano } from "react-icons/md";
+import { BsPencilFill } from "react-icons/bs";
+import { MdCardTravel } from "react-icons/md";
 
 function AboutCard() {
   return (
@@ -12,25 +14,25 @@ function AboutCard() {
             from <span className="primary"> Argentina.</span>
             <br />I am a Full Stack Developer based in Russia but open for new opportunities.
             <br />
-            <br />
             Apart from coding, some other activities that I love to do are:
           </p>
+          <br/>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Piano
+              <MdPiano style={{color: "var(--myPrimary)"}} />&nbsp; Playing Piano
             </li>
             <li className="about-activity">
-              <ImPointRight /> Write Tech Blogs
+              <BsPencilFill style={{color: "var(--myPrimary)"}} />&nbsp; Write Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travel around the world
+              <MdCardTravel style={{color: "var(--myPrimary)"}} />&nbsp; Travel
             </li>
           </ul>
-
+        <br/>
           <p style={{ color: "rgb(155 126 172)" }}>
-          There won't be much to learn. In fact, we'll spend most of our time unlearning.{" "}
+          "There won't be much to learn. In fact, we'll spend most of our time unlearning."{" "}
           </p>
-          <footer className="blockquote-footer">Anonymous</footer>
+          <div className="blockquote-footer">Anonymous</div>
         </blockquote>
       </Card.Body>
     </Card>

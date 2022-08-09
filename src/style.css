@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -21,6 +23,15 @@ html {
 .primary {
   color: var(--imp-text-color) !important;
 }
+
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+
 .radius {
   border-radius: .5rem;
 }
@@ -64,18 +75,19 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--myPrimary);
+  background: var(--myBlack);
+  border-left: 1px solid var(--myPrimary);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(255,255,255, 0.959);
+  background: rgba(178, 121, 216, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0,0,0, 0.911);
+  background: rgba(255,0,255, 0.911);
   border-radius: 12px;
 }
 
@@ -162,8 +174,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2rem !important;
+  width: 2rem !important;
 }
 
 .navbar-nav .nav-link {
@@ -260,6 +272,11 @@ button:focus {
 .home-header {
   padding-top: 80px !important;
 }
+@media (max-width: 767px) {
+  .home-header {
+    padding-top: 0px !important;
+  }
+}
 
 .home-section {
   position: relative;
@@ -275,6 +292,11 @@ button:focus {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+}
+@media (max-width: 767px) {
+  .home-content {
+    padding: 3.5rem 0 !important;
+  }
 }
 
 .heading {
@@ -312,22 +334,24 @@ button:focus {
   }
 }
 
-.myAvtar {
+/* .myAvatar {
   justify-content: center !important;
   padding-top: 9em !important;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 767px) {
-  .myAvtar {
+  .myAvatar {
     padding-top: 2em !important;
     padding-bottom: 2em !important;
+    margin-top: 2rem;
   }
-}
+} */
 
 .home-about-section {
   position: relative;
+  padding-top: 0px !important;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
 }
 
 .home-about-description {
@@ -338,9 +362,11 @@ button:focus {
 }
 
 .home-about-body {
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 1.2em !important;
   text-align: left;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .home-about-social {
@@ -414,7 +440,6 @@ button:focus {
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
-   /* color: var(--myBlack) !important; */
 }
 .footer-copywright {
   text-align: center !important;
@@ -426,7 +451,7 @@ button:focus {
   text-align: center !important;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .footer-copywright {
     text-align: center !important;
   }
@@ -434,7 +459,7 @@ button:focus {
   .footer-body {
     text-align: center !important;
   }
-}
+} */
 
 .footer h3 {
   font-size: 1em;
@@ -462,8 +487,8 @@ button:focus {
 }
 
 .project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
@@ -480,7 +505,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(0,255,0, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(255,0,255, 0.561) !important;
 }
 
 .blog-card {
@@ -614,7 +639,7 @@ button:focus {
 
 .resume-section {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 80px  !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
