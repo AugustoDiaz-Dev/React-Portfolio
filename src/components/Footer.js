@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+  SiGithub,
+  SiLinkedin,
+} from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -12,13 +11,7 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Augusto Diaz</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year}</h3>
-        </Col>
-        <Col md="4" className="footer-body">
+        <Col md="12" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -27,27 +20,20 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <SiGithub size={24}  />
               </a>
+            </li>
+             <li className="social-icons">
+             <h3>© AD {year}</h3>
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/AugustoDiaz-Dev"
+                href="https://www.linkedin.com/in/augusto-diaz-dev/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://github.com/AugustoDiaz-Dev"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
+                <SiLinkedin size={24} />
               </a>
             </li>
           </ul>
