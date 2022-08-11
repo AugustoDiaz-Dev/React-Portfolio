@@ -4,6 +4,7 @@ import {
   SiGithub,
   SiLinkedin,
 } from "react-icons/si";
+import '../styles/footer.css'
 
 function Footer() {
   let date = new Date();

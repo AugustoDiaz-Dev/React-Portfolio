@@ -12,7 +12,7 @@ function Github() {
         username="augustodiaz-dev"
         blockSize={16}
         blockMargin={4}
-        color="#39d353"
+        color="#0c77b5"
         fontSize={10}
         showWeekdayLabels={true}
       />

@@ -16,7 +16,8 @@ function Home() {
               <h2 style={{ paddingBottom: 15 }} className="heading">
                 Welcome!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻 
+                  &#128187;
+                  {/* &#127905; */}
                 </span>
               </h2>
 

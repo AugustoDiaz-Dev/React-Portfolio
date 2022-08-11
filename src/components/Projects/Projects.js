@@ -7,7 +7,7 @@ import blueOrange from "../../Assets/projects/heroBlueOrange.png";
 import interViews from "../../Assets/projects/heroInterViews.png";
 import resumeElena from "../../Assets/projects/heroResumeElena.png";
 import vostokIt from "../../Assets/projects/heroDVostokIt.png";
-// import interViews from "../../Assets/projects/heroInterViews.png";
+import egds from "../../Assets/projects/heroEgds.png";
 
 function Projects() {
   return (
@@ -40,6 +40,16 @@ function Projects() {
               description="Blogs about JavaScript and MERN stack. Tools: Next.js, TypeScript, Mdx."
               ghLink="https://github.com/AugustoDiaz-Dev/NextJS-Inter-Views"
               demoLink="inter-views.vercel.app/" 
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={egds}
+              isBlog={false}
+              title="El gusto de Sonia"
+              description="E-Commerce. Tools: React, Tailwind, Firebase, Redux."
+              ghLink="https://github.com/AugustoDiaz-Dev/React_E-Commerce-Template"
+              demoLink="https://egds.vercel.app/" 
             />
           </Col>
 
