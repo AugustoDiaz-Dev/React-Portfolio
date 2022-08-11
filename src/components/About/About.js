@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import futuristic from "../../Assets/aboutImg.jpg";
+import futuristic from "../../Assets/invMain.png";
 import Toolstack from "./Toolstack";
 
 function About() {
@@ -28,7 +28,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "40px" }}
+            style={{ paddingTop: "20px", paddingBottom: "40px" }}
             className="about-img"
           >
             <img src={futuristic} alt="about" className="img-fluid" style={{borderRadius: "50px"}} />

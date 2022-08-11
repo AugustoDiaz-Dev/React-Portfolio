@@ -10,8 +10,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Glad to see you here! I am <span className="primary">Augusto Diaz </span>
-            from <span className="primary"> Argentina.</span>
+            Glad to see you here! I am <span className="secondary">Augusto Diaz </span>
+            from <span className="secondary"> Argentina.</span>
             <br />I am a Full Stack Developer based in Russia but open for new opportunities.
             <br />
             Apart from coding, some other activities that I love to do are:
@@ -19,20 +19,21 @@ function AboutCard() {
           <br/>
           <ul>
             <li className="about-activity">
-              <MdPiano style={{color: "var(--myPrimary)"}} />&nbsp; Playing Piano
+              <MdPiano className="primary" />&nbsp; Play Piano
             </li>
             <li className="about-activity">
-              <BsPencilFill style={{color: "var(--myPrimary)"}} />&nbsp; Write Tech Blogs
+              <BsPencilFill className="secondary" />&nbsp; Write Tech Blogs
             </li>
             <li className="about-activity">
-              <MdCardTravel style={{color: "var(--myPrimary)"}} />&nbsp; Travel
+              <MdCardTravel className="primary" />&nbsp; Travel
             </li>
           </ul>
         <br/>
-          <p style={{ color: "rgb(155 126 172)" }}>
+        <hr/>
+          <p className="secondary">
           "There won't be much to learn. In fact, we'll spend most of our time unlearning."{" "}
           </p>
-          <div className="blockquote-footer">Anonymous</div>
+          <div className="primary">Anonymous</div>
         </blockquote>
       </Card.Body>
     </Card>
