@@ -1,6 +1,5 @@
 # Portfolio Augusto Diaz
 
-  
 - "@react-pdf/renderer": "^2.2.0",
 - "axios": "^0.26.1",
 - "bootstrap": "^5.1.3",
