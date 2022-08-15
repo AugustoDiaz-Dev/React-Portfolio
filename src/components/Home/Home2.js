@@ -13,16 +13,12 @@ function Home2() {
               LET ME <span className="primary"> INTRODUCE </span> MYSELF
             </h2>
             <p className="home-about-body">
-              I'm a software developer with a passion for building Web Applications. I love to learn new technologies ir order to get the things done in the most efficient way. 
+              I'm a software developer interested in building Web Applications. I love to learn new technologies in order to get the things done in the most efficient way. 
               <br />
               <br />
-              My personal interests are targeted to building new &nbsp;
+              My personal aims are targeted to build new &nbsp;
               <i>
-                <b className="primary">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="primary">
-                  Web3.0 
-                </b>
+                <b className="primary">Web Technologies and Products.</b>
               </i>
               <br />
               <br />
@@ -31,12 +27,12 @@ function Home2() {
               <i>
                 <b className="primary">
                   {" "}
-                  Modern Javascript Libraries and Frameworks
+                  modern Javascript libraries and frameworks
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; such as
               <i>
-                <b className="primary"> React.js, Gatsby and Next.js.</b>
+                <b className="primary"> React.js, Gatsby and NextJS.</b>
               </i>
             </p>
           </Col>

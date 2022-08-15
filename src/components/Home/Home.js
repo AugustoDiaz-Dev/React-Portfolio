@@ -17,7 +17,6 @@ function Home() {
                 Welcome!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   &#128187;
-                  {/* &#127905; */}
                 </span>
               </h2>
 

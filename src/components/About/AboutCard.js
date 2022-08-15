@@ -12,7 +12,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Glad to see you here! I am <span className="secondary">Augusto Diaz </span>
             from <span className="secondary"> Argentina.</span>
-            <br />I am a Full Stack Developer based in Russia but open for new opportunities.
+            <br />I am a Full Stack Developer looking for new opportunities.
             <br />
             Apart from coding, some other activities that I love to do are:
           </p>
@@ -22,7 +22,7 @@ function AboutCard() {
               <MdPiano className="primary" />&nbsp; Play Piano
             </li>
             <li className="about-activity">
-              <BsPencilFill className="secondary" />&nbsp; Write Tech Blogs
+              <BsPencilFill className="primary" />&nbsp; Write Tech Blogs
             </li>
             <li className="about-activity">
               <MdCardTravel className="primary" />&nbsp; Travel
