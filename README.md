@@ -1,4 +1,4 @@
-# Portfolio Augusto Diaz
+# Portfolio Augusto Diaz (React)
 
 - "@react-pdf/renderer": "^2.2.0",
 - "axios": "^0.26.1",
